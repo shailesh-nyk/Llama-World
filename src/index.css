@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.s-carousel-img {
+   max-height: 500px !important;
+   margin: auto;
+}
+
+.twitter-tweet {
+  max-width: 350px !important;
+  width: unset !important;
+  margin-right: 20px;
+}
+.s-info-icon {
+  width: 75%;
+  border-radius: 165px;
+  margin-top: 16px;
+}
+.s-info-container {
+  position: relative;
+  border: 0.5px solid #212529;
+  border-radius: 8px;
+  margin: 20px;
+  background-color: khaki;
+}
+.s-did-you-know {
+  color: white;
+  position: absolute;
+  z-index: 100;
+  left: 20%;
+  top: 10%;
+  font-size: 2rem;
+  font-weight: bold;
+} 
+.jumbotron {
+  margin-bottom: 0px !important;
+}
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 2rem 2rem;
+ }
+}
+.fas {
+  cursor: pointer;
+}
+.fas:hover {
+   color: blue;
+   transform: scale(2);
+   transition: transform ease-in;
+}
+.jumbotron {
+  padding: 1rem 2rem !important;
+}
+.s-main-content {
+  min-height: calc(100vh - 70px);
+  margin-top: 70px;
+  background: linear-gradient(0deg, rgba(255,227,65,0.9671218829328606) 0%, rgba(34,193,195,1) 100%);
+}
+
+.nav-link {
+   font-size: large;
+   position: relative;
+}
+.nav-link:hover {
+   color: rgba(34,193,195) !important;
+}
+@media only screen and (max-width: 768px) {
+  .link-active::after {
+    display: none;
+  
+ }
+}
+.link-active {
+  color: rgba(34,193,195) !important;
+}
+.link-active::after {
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: 45px;
+    left: 37%;
+}
